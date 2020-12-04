@@ -2,7 +2,7 @@
 
 import re
 
-with open('day_two/day_two.csv') as file:
+with open('day_02/input_02.csv') as file:
     passwords = [line.rstrip('\n') for line in file]
 
 valid = 0
