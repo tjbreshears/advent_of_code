@@ -1,6 +1,6 @@
 #What do you get if you multiply together the number of trees encountered on each of the listed slopes?
 
-with open('day_three/day_three.csv') as file:
+with open('day_03/input_03.csv') as file:
     path = [line.rstrip('\n') for line in file]
 
 elevation = len(path)
