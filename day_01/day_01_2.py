@@ -1,6 +1,6 @@
 #What is the product of the three entries that sum to 2020?
 
-with open('day_one/day_one.csv', 'r') as file:
+with open('day_01/input_01.csv', 'r') as file:
     report = [line.rstrip('\n') for line in file]
 
 report = [int(i) for i in report]
