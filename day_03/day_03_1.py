@@ -1,6 +1,6 @@
 #How many trees would you encounter?
 
-with open('day_three/day_three.csv') as file:
+with open('day_03/input_03.csv') as file:
     path = [line.rstrip('\n') for line in file]
 
 elevation = len(path)
