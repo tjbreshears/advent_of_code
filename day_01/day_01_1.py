@@ -11,5 +11,5 @@ for i in report:
         if i not in solution:
             solution.append(i)
 
-print("Numbers that add to 2,020: " + "{:,}".format(solution[0]) + " and " + "{:,}".format(solution[1]))
-print("Product: " + "{:,}".format(solution[0]*solution[1]))
+print(f"Add to 2020: {solution[0]} and {solution[1]}")
+print(f"Product: {solution[0]*solution[1]}")
