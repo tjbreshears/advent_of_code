@@ -2,7 +2,7 @@
 #what do you get if you multiply them together?
 #https://adventofcode.com/2020/day/1
 
-with open('day_01/input_01.csv', 'r') as f:
+with open('day_01/day_one.csv', 'r') as f:
     report = [line.rstrip('\n') for line in f]
 
 report = [int(x) for x in report]
