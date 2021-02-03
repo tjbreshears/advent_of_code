@@ -1,4 +1,5 @@
 #What is the product of the three entries that sum to 2020?
+#https://adventofcode.com/2020/day/1
 
 with open('day_01/input_01.csv', 'r') as file:
     report = [line.rstrip('\n') for line in file]
