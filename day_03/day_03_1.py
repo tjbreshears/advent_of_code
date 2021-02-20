@@ -1,6 +1,7 @@
 #How many trees would you encounter?
+#https://adventofcode.com/2020/day/3
 
-with open('day_03/input_03.csv') as file:
+with open('inputs/day_03.csv') as file:
     path = [line.rstrip('\n') for line in file]
 
 elevation = len(path)
@@ -16,4 +17,4 @@ while (down < elevation):
     if right >= 30:
         right -= (len(path[down]))
 
-print ("Trees Hit: " + str(count))
+print (f"Trees Hit: {count}")
