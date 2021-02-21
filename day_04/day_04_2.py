@@ -1,4 +1,5 @@
 #In your batch file, how many passports are valid?
+#https://adventofcode.com/2020/day/4
 
 import re
 
@@ -13,7 +14,13 @@ valid = 0
 counter = 0
 
 for passport in passportsFormatted:
-        if all( ["byr" in passport, "iyr" in passport, "eyr" in passport, "hgt" in passport, "hcl" in passport, "ecl" in passport, "pid" in passport] ):
+        if all( ["byr" in passport, \
+        "iyr" in passport, \
+        "eyr" in passport, \
+        "hgt" in passport, \
+        "hcl" in passport, \
+        "ecl" in passport, \
+        "pid" in passport] ):
             passportsPass.append(passport)
 
 for passport in passportsPass:
@@ -50,4 +57,4 @@ def scanner(passport):
 for i in passports:
     scanner(i)
 
-print(valid)
+print(f"Valid Passports: {valid}")
