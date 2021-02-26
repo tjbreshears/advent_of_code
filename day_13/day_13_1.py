@@ -21,4 +21,7 @@ for bus in buses:
 
 wait = soonest[1]-time
 answer = soonest[0]*wait
-print(answer)
+
+print(f"Bus ID: {soonest[0]}")
+print(f"Minutes Waited: {wait}")
+print(f"Product: {answer}")
