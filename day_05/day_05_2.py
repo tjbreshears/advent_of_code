@@ -1,8 +1,7 @@
 #What is the ID of your seat?
+#https://adventofcode.com/2020/day/5
 
-import re
-
-with open('day_05/input_05.csv') as file:
+with open('inputs/day_05.csv') as file:
     data = file.read().strip().split("\n")
 
 IDlist = []
