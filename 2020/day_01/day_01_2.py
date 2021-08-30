@@ -1,7 +1,7 @@
 #What is the product of the three entries that sum to 2020?
 #https://adventofcode.com/2020/day/1
 
-with open('inputs/day_01.csv', 'r') as f:
+with open('inputs/2020/day_01.csv', 'r') as f:
     report = [line.rstrip('\n') for line in f]
 
 report = [int(i) for i in report]
