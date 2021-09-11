@@ -1,6 +1,6 @@
-#What is the position of the character that causes Santa to first enter the \
-#basement?
-#https://adventofcode.com/2015/day/1
+# What is the position of the character that causes Santa to first enter the \
+# basement?
+# https://adventofcode.com/2015/day/1
 
 with open('inputs/2015/day_01.csv') as f:
     data_raw = f.read()

@@ -1,5 +1,5 @@
-#To what floor do the instructions take Santa?
-#https://adventofcode.com/2015/day/1
+# To what floor do the instructions take Santa?
+# https://adventofcode.com/2015/day/1
 
 with open('inputs/2015/day_01.csv') as f:
     data_raw = f.read()
