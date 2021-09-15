@@ -1,5 +1,5 @@
-#How many strings are nice?
-#https://adventofcode.com/2015/day/5
+# How many strings are nice?
+# https://adventofcode.com/2015/day/5
 
 import re
 
